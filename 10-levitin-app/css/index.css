@@ -80,7 +80,7 @@ button:hover {
 }
 
 .nav .menu-desplegable a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -117,6 +117,7 @@ button:hover {
 }
 
 .menu-desplegable a:hover {
+    color: black;
     background-color: #637a81;
 }
 
@@ -170,8 +171,8 @@ button:hover {
     width: 150px; 
     height: 250px;
     background-color: #f9f9f9; 
-    border-right: 5px solid #6D97A8;
-    border-bottom: 5px solid #6D97A8;
+    border-right: 5px solid #6496A7;
+    border-bottom: 5px solid #6496A7;
     border-radius: 8px;
     padding: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -183,8 +184,8 @@ button:hover {
     width: 150px; 
     height: 250px;
     background-color: #f9f9f9; 
-    border-right: 5px solid #637a81;
-    border-bottom: 5px solid #637a81;
+    border-right: 5px solid #AF69A8;
+    border-bottom: 5px solid #AF69A8;
     border-radius: 8px;
     padding: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -195,8 +196,8 @@ button:hover {
     width: 150px; 
     height: 250px;
     background-color: #f9f9f9; 
-    border-right: 5px solid #637a81;
-    border-bottom: 5px solid #637a81;
+    border-right: 5px solid #8080BC;
+    border-bottom: 5px solid #8080BC;
     border-radius: 8px;
     padding: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -207,8 +208,8 @@ button:hover {
     width: 150px; 
     height: 250px;
     background-color: #f9f9f9; 
-    border-right: 5px solid #637a81;
-    border-bottom: 5px solid #637a81;
+    border-right: 5px solid #DB9E3A;
+    border-bottom: 5px solid #DB9E3A;
     border-radius: 8px;
     padding: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -236,7 +237,11 @@ button:hover {
     bottom: 10px;
     right: 10px;
     font-size: 18px;
+    display: inline-block; 
+    cursor: pointer; 
+ 
 }
+
 
 #Texto {
     font-size: 15px;
