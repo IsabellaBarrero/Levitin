@@ -230,11 +230,11 @@ h2 {
     background-color: #745a95;
 }
 
-.navigation-buttons {
+.botones-navegacion {
     margin-top: 150px;
 }
 
-.navigation-buttons button {
+.botones-navegacion button {
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
@@ -245,11 +245,10 @@ h2 {
     cursor: pointer;
 }
 
-.navigation-buttons button:hover {
+.botones-navegacion button:hover {
     background-color: #ece5cc;
 }
 
-/* Modal Styles */
 .modal {
     display: none;
     position: fixed;

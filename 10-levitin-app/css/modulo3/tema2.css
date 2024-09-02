@@ -205,11 +205,11 @@ h2 {
     transform: scale(1.2);
 }
 
-.navigation-buttons {
-    margin-top: 200px;
+.botones-navegacion {
+    margin-top: 150px;
 }
 
-.navigation-buttons button {
+.botones-navegacion button {
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
@@ -220,7 +220,7 @@ h2 {
     cursor: pointer;
 }
 
-.navigation-buttons button:hover {
+.botones-navegacion button:hover {
     background-color: #ece5cc;
 }
 
