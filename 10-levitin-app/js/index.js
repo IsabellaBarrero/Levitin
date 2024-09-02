@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+/* document.addEventListener('DOMContentLoaded', () => {
     // Selecciona todos los elementos con la clase 'flecha'
     const flechas = document.querySelectorAll('.flecha');
 
@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = link;
         });
     });
-});
+}); */
 
 const saludo = document.querySelector('.saludo');
 
 let nombreUsuario = JSON.parse(localStorage.getItem('user'));
 
-saludo.innerHTML = `Hola ${nombreUsuario.userName} 🎶🎶`
+saludo.innerHTML = `Hola ${saludo.userName} 🎶🎶`
 
 
 const btnIniciarSesion = document.querySelector('.inicio-sesion');

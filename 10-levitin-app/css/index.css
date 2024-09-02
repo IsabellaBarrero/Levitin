@@ -145,6 +145,10 @@ button:hover {
     
 }
 
+.saludo {
+color: #1b1b1b;
+}
+
 .titulo {
     display: flex;
     align-items: center;

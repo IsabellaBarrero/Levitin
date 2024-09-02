@@ -199,13 +199,15 @@ h2 {
     font-size: 20px;
     margin: 100px;
 }
-.next-lesson-button {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 650px;
+.formulario {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 5vh; 
 }
 
-.next-lesson-button button{
+.formulario button{
+    margin: auto;
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
@@ -216,16 +218,16 @@ h2 {
     cursor: pointer;
 }
 
-.next-lesson-button button:hover {
+.formulario button:hover {
     background-color: #77aabb;
 }
 
 
-.navigation-buttons {
-    margin-top: 300px;
+.botones-navegacion {
+    margin-top: 150px;
 }
 
-.navigation-buttons button {
+.botones-navegacion button {
     margin: 5px;
     padding: 10px 20px;
     font-size: 16px;
@@ -236,7 +238,7 @@ h2 {
     cursor: pointer;
 }
 
-.navigation-buttons button:hover {
+.botones-navegacion button:hover {
     background-color: #ece5cc;
 }
 
