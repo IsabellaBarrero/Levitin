@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -168,22 +168,15 @@ color: #1b1b1b;
     display: flex;
     justify-content: center;
     gap: 50px; 
-    margin-top: 50px; 
     padding: 20px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: auto;
 
 }
 
-.card-container2 {
-    display: flex;
-    justify-content: center;
-    gap: 50px; 
-    margin-top: 50px; 
-    padding: 20px;
-
-}
-
-.card1 {
-    width: 150px; 
+.card {
+    width: 44%; 
     height: 250px;
     background-color: #f9f9f9; 
     border-right: 5px solid #6496A7;
@@ -195,41 +188,7 @@ color: #1b1b1b;
     text-align: justify;
 }
 
-.card2 {
-    width: 150px; 
-    height: 250px;
-    background-color: #f9f9f9; 
-    border-right: 5px solid #AF69A8;
-    border-bottom: 5px solid #AF69A8;
-    border-radius: 8px;
-    padding: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; 
-}
 
-.card3 {
-    width: 150px; 
-    height: 250px;
-    background-color: #f9f9f9; 
-    border-right: 5px solid #8080BC;
-    border-bottom: 5px solid #8080BC;
-    border-radius: 8px;
-    padding: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; 
-}
-
-.card4 {
-    width: 150px; 
-    height: 250px;
-    background-color: #f9f9f9; 
-    border-right: 5px solid #DB9E3A;
-    border-bottom: 5px solid #DB9E3A;
-    border-radius: 8px;
-    padding: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; 
-}
 
 .card-icon {
     font-size: 24px;
