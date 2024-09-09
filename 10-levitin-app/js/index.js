@@ -5,14 +5,11 @@ let nombreUsuario = JSON.parse(localStorage.getItem('user'));
 
 saludo.innerHTML = `Hola ${saludo.userName} 🎶🎶`
 
-
 const btnIniciarSesion = document.querySelector('.inicio-sesion');
 const btnRegistro = document.querySelector('.registro');
 const saludoUsuario = document.querySelector('.saludo');
 const cerrarSesion = document.querySelector('.cerrar');
 const container = document.querySelector('.card-container1');
-
-
 
 // Verifica si el usuario está registrado 
 function verificarSesion() {
@@ -40,8 +37,6 @@ cerrarSesion.addEventListener('click' , () => {
 
 document.addEventListener('DOMContentLoaded', verificarSesion);
 
-document.addEventListener('DOMContentLoaded', verificarSesion);
-
 // Funcion para las cards
 function mostrarResults(results) {
     results.forEach( element => {
@@ -49,15 +44,13 @@ function mostrarResults(results) {
         card.classList.add("card")
     
         card.innerHTML = `
-        <div class="card">
+       
+            <div class="card1">
                 <div class="card-icon">${element.icon}</div>
                 <hr class="divider">
-                <h1 id="Texto">MÓDULO 1</h1>
-                <p class="card-text">La introducción a la psicología musical:
-                    Abarcaremos tanto la historia y 
-                    evolución cómo la importancia y
-                    prácticas de la psicología musical</p>
-                    <div class="flecha" data-link="./vistas/modulo1/tema1.html">➡️</div>
+                <h1 id="Texto">${element.title}</h1>
+                <p class="card-text">${element.text}</p>
+                <div class="flecha">➡️</div>
             </div>
         `
     
@@ -65,7 +58,9 @@ function mostrarResults(results) {
     })
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+  mostrarResults(cardsData) 
+
+ document.addEventListener('DOMContentLoaded', () => {
     // Selecciona todos los elementos con la clase 'flecha'
     const flechas = document.querySelectorAll('.flecha');
 
