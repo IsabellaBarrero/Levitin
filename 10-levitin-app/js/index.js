@@ -50,7 +50,7 @@ function mostrarResults(results) {
                 <hr class="divider">
                 <h1 id="Texto">${element.title}</h1>
                 <p class="card-text">${element.text}</p>
-                <div class="flecha">➡️</div>
+                <div class="flecha" data-link="${element.link}">➡️</div>
             </div>
         `
     
