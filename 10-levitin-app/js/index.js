@@ -3,8 +3,6 @@ const saludo = document.querySelector('.saludo');
 
 let nombreUsuario = JSON.parse(localStorage.getItem('user'));
 
-saludo.innerHTML = `Hola ${saludo.userName} 🎶🎶`
-
 const btnIniciarSesion = document.querySelector('.inicio-sesion');
 const btnRegistro = document.querySelector('.registro');
 const saludoUsuario = document.querySelector('.saludo');
@@ -17,7 +15,7 @@ function verificarSesion() {
 
     if (currentUser) {
         // Si hay un usuario logueado, mostrar su nombre y ocultar botones
-        saludoUsuario.textContent = `Bienvenido, ${currentUser.userName} 🎶🎶`;
+        saludoUsuario.textContent = `Bienvenido, ${currentUser.userName} 🎶`;
         btnIniciarSesion.style.display = 'none';
         btnRegistro.style.display = 'none';
         cerrarSesion.style.display = 'inline-block'
